@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  section {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+
+  
+  .summary-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .summary-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .summary-item:not(:last-child) {
+    border-right: 1px solid #ddd;
+  }
+  
+  .summary-label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .package-section, .method-section {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .method-name {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .bug-details-section, .code-coverage-section {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .bug-detail, .coverage-detail {
+    padding: 5px 0;
+  }
+  
+  .result-true {
+    color: green;
+  }
+  
+  .result-false {
+    color: red;
+  }
+  
+  .result-unknown {
+    color: orange;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .export-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    float: right;
+  }
+
+  .toggle-switch {
+    float: right;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  
